@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository != 'Harry-zklcdc/go-proxy-bingai'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@main
         with:
+          repository: 'https://github.com/Harry-zklcdc/go-proxy-bingai.git'
           ref: dev
 
       - name: Set up Go
