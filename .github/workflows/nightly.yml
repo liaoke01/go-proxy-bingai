@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@main
         with:
-          repository: 'https://github.com/Harry-zklcdc/go-proxy-bingai.git'
+          repository: 'Harry-zklcdc/go-proxy-bingai'
           ref: dev
 
       - name: Set up Go
